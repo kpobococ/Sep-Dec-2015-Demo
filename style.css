@@ -1,0 +1,121 @@
+table {
+    border: 1px solid #000;
+    width: 100%;
+}
+
+table td {
+    border: 1px solid #000;
+}
+
+.ajax {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+/*
+
+    элемент - 1
+    класс, аттрибут - 10
+    идентификатор - 100
+
+ */
+
+.col-3.block-aside {
+    color: green;
+}
+
+.col-3 {
+    background: #c0c0c0;
+    background: rgba(200,200,200,1);
+}
+
+.block-aside {
+    color: red !important;
+    border: 1px solid blue;
+}
+
+body#my-body {
+    background: #e0e0e0;
+}
+
+a[href] {
+    border-top: 1px solid blue;
+}
+
+a[href=""] {
+    border-top: 0;
+}
+
+ol > li {
+    color: green;
+}
+
+ul > li {
+    color: blue;
+}
+
+li + li {
+    background: #fff;
+}
+
+img ~ h2 {
+    border-bottom: 1px solid;
+}
+
+* {
+
+}
+
+a {
+    color: red;
+}
+
+a:focus {
+    outline: 0;
+}
+
+a:hover,
+a:focus {
+    color: inherit;
+}
+
+a:after {
+    content: '*';
+}
+
+p::first-letter {
+    font-size: 200%;
+}
+
+p ~ p {
+    color: #0000ff;
+}
+
+p + p {
+    color: #00ff00;
+}
+
+::-moz-selection { color: gold;  background: red; }
+::selection      { color: gold;  background: red; }
+
+/*@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0);
+    }
+    to {
+        -webkit-filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0);
+    }
+    to {
+        -webkit-filter: hue-rotate(360deg);
+    }
+}
+
+#my-body {
+    animation: hue 5s ease infinite;
+}*/
