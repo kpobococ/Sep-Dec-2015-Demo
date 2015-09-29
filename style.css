@@ -83,14 +83,6 @@ p::first-letter {
     font-size: 200%;
 }
 
-p ~ p {
-    color: #0000ff;
-}
-
-p + p {
-    color: #00ff00;
-}
-
 ::-moz-selection { color: gold;  background: red; }
 ::selection      { color: gold;  background: red; }
 
